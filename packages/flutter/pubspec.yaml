@@ -1,0 +1,22 @@
+name: plus_flutter
+description: Some widgets for Flutter Project.
+version: 0.0.1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  plus_widgets:
+    git:
+      url: git@github.com:longht021189/plus_flutter.git
+      path: packages/widgets
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

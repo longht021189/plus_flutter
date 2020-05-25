@@ -16,9 +16,9 @@ class StreamBuilder<T> extends StatefulWidget {
     @required this.stream,
     @required this.initialData,
     this.handler
-  }): super(key: key)
+  }): assert(stream != null)
     , assert(builder != null)
-    , assert(stream != null);
+    , super(key: key);
 
   @override
   State<StatefulWidget> createState() => _StreamBuilderState(initialData);
