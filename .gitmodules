@@ -1,0 +1,3 @@
+[submodule "packages/fab"]
+	path = packages/fab
+	url = git@github.com:longht021189/unicornspeeddial.git
