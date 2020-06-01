@@ -8,6 +8,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  provider: ^4.1.2
 
   plus_widgets:
     git:
